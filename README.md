@@ -30,3 +30,23 @@ Deals with phonecase
 <script src="script.js"></script>
 </body>
 </html>
+body {
+  font-family: Arial;
+  text-align: center;
+  background: #f5f5f5;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+}function buy(product) {
+  alert("You selected: " + product);
+}
